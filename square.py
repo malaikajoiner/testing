@@ -1,4 +1,4 @@
-
+import sys
 class square:
     def square(self, n):
         squared = n**2
@@ -7,6 +7,5 @@ class square:
 
 if __name__ == '__main__':
     sq = square()
-    x = (input("num?"))
-    x = int(x)
+    x = int(sys.argv[1])
     sq.square(x)
